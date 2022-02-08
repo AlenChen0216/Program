@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1627701761 source:c:\users\superman\desktop\ccc\apcs\45.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1627704477 source:c:\users\superman\desktop\ccc\apcs\test.1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1627701746 source:c:\users\superman\desktop\ccc\apcs\2018.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
