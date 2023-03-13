@@ -18,6 +18,84 @@
     <a href="https://chunithm-net-eng.com/mobile/home/#_=_" target="_blank">
         <button onclick = "t();">Hi </button>
     </a>
+<table border="1">
+<tbody>
+	<tr >
+		<td class="c_title">公告對象:</td>
+        <td class="c_content">
+        	<form name="MyForm1" action="a.php" method="POST">
+				<input type="checkbox" name="hobby[]" value="1">教職員
+				<input type="checkbox" name="hobby[]" value="2">學生
+				<input type="checkbox" name="hobby[]" value="3">學校首頁
+			</form>
+        </td>
+    </tr>
+	<tr >
+		<td class="c_title">公告類型:</td>
+        <td class="c_content">
+        	<form name="MyForm2" action="a.php" method="POST">
+				<input type="radio" name="type" value="1" >演講
+				<input type="radio" name="type" value="2" >研討會
+                <input type="radio" name="type" value="3" >徵才
+                <input type="radio" name="type" value="4" >招生、進修教育訓練
+                <input type="radio" name="type" value="5" >其他
+			</form>
+        </td>
+    </tr>
+    <tr >
+    	<td class="c_title">主旨：</td>
+        <td class="c_content">
+        	<form name="MyForm3" action="a.php" method="POST">
+				<textarea name="content" rows="1" cols="40"></textarea>
+			</form>
+        </td>
+    </tr>
+    <tr >
+    	<td class="c_title">截止日期：</td>
+        <td class="c_content">
+        	<form name="MyForm4" action="a.php" method="POST">
+				<select id="year" name="year" size="1">
+					<option value="0" selected>112</option>
+				</select>
+                年
+                <select id="month" name="month" size="1">
+					<option value="0" selected>1</option>
+				</select>
+                月
+                <select id="day" name="day" size="1">
+					<option value="0" selected>1</option>
+				</select>
+                日
+			</form>
+        </td>
+    </tr>
+    <tr >
+    	<td class="c_title">連結網址：</td>
+       	<td>
+        	<form name="MyForm5" action="a.php" method="POST">
+				<textarea name="url" rows="1" cols="40"></textarea>
+			</form>
+        </td>
+    </tr>
+    <tr >
+    	<td class="c_title">公告內容：</td>
+       	<td>
+        	<form name="MyForm6" action="a.php" method="POST">
+				<textarea name="poster" rows="4" cols="40"></textarea>
+			</form>
+        </td>
+    </tr>
+    <tr >
+    	<td  colspan = "2" align="center">
+        	<form name="MyForm7" action="a.php" method="POST" > 
+				<input type="submit" size="20" value="確定送出" class="c_button">
+                <input type="submit" size="20" value="重新填寫" class="c_button">
+			</form>
+        </td>
+       	
+    </tr>
+</tbotdy>
+</table>
 </body>
 
 </html>
